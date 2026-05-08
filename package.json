@@ -1,0 +1,16 @@
+{
+  "name": "a-spine",
+  "version": "1.0.0",
+  "description": "A-Spine website with Vercel Speed Insights",
+  "private": true,
+  "scripts": {
+    "build": "echo 'No build step required for proxy configuration'",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

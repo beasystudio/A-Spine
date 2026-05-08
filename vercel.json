@@ -4,5 +4,8 @@
       "source": "/(.*)",
       "destination": "https://a-spine.framer.website/"
     }
-  ]
+  ],
+  "analytics": {
+    "enable": true
+  }
 }

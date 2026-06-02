@@ -1,0 +1,14 @@
+{
+  "name": "a-spine",
+  "version": "1.0.0",
+  "description": "Vercel redirect with Speed Insights",
+  "scripts": {
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

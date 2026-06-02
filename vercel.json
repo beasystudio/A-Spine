@@ -4,5 +4,6 @@
       "source": "/(.*)",
       "destination": "https://078523.framer.website/"
     }
-  ]
+  ],
+  "buildCommand": "npm install"
 }

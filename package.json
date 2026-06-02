@@ -1,0 +1,29 @@
+{
+  "name": "a-spine",
+  "version": "1.0.0",
+  "description": "A-Spine project with Vercel Speed Insights",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

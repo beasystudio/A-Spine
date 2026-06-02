@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://078523.framer.website/"
-    }
-  ]
-}

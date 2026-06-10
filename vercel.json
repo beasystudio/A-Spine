@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "https://078523.framer.website/"
+      "destination": "https://a-spine.framer.ai/"
     }
   ]
 }

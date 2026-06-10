@@ -1,8 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "https://a-spine.framer.ai/"
-    }
+    { "source": "/(.*)", "destination": "/api/proxy" }
   ]
 }

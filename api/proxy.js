@@ -16,8 +16,16 @@ export default async function handler(req) {
   }
 
   let text = await res.text()
-  text = text.replaceAll('a-spine.framer.ai', 'a-spine.com')
-  text = text.replaceAll('framer.website', 'a-spine.com')
+  text = text.replaceAll('a-spine.framer.ai', 'a-spine.be')
+  text = text.replaceAll('framer.website', 'a-spine.be')
+
+  // Only inject the verification tag into HTML, not XML
+  if (contentType.includes('text/html')) {
+    text = text.replace(
+      '</head>',
+      '<meta name="google-site-verification" content="EhIDFVSYNXlGagAUMQCo5ivpgtn6UF8EX3-yHPTUygY" /></head>'
+    )
+  }
 
   return new Response(text, {
     status: res.status,

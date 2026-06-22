@@ -23,7 +23,8 @@ export default async function handler(req) {
   if (contentType.includes('text/html')) {
     text = text.replace(
       '</head>',
-      '<meta name="google-site-verification" content="EhIDFVSYNXlGagAUMQCo5ivpgtn6UF8EX3-yHPTUygY" /></head>'
+      `<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"A-Spine","url":"https://a-spine.be"}</script>
+      <meta name="google-site-verification" content="EhIDFVSYNX1GagAUMQCo5ivpgtn6UF8EX3-yHPTUygY" /></head>`
     )
   }
 
